@@ -1,0 +1,34 @@
+library(igraph)
+
+# construct the undirected, unweighted brain network
+brain_network <- graph_from_adjacency_matrix(
+  matrix,
+  mode = "undirected",
+  diag = FALSE
+)
+
+# Basic network characteristics
+summary(brain_network)
+gorder(brain_network)
+gsize(brain_network)
+
+# Average degree
+mean(degree(brain_network))
+
+# ASPL
+mean_distance(brain_network, directed = FALSE, weights = NA)
+
+# Global clustering coefficient
+transitivity(brain_network, type = "global")
+
+# Assortative mixing by degree
+assortativity_degree(brain_network, directed = FALSE)
+
+# Components
+components(brain_network)$no
+
+# Network diameter
+diameter(brain_network)
+
+# Network density
+edge_density(brain_network)
