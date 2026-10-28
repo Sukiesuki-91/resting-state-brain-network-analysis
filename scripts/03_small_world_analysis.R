@@ -35,6 +35,6 @@ compute_swi <- function(graph){
 }
 
 # Check for brain network's SWI
-set.seed(1)
+set.seed(123)
 compute_swi(brain_network)
 # SWI is 2.22

@@ -1,0 +1,178 @@
+"roi_index","node","region","community"
+1,"LLOCid1","Left Lateral Occipital Cortex inferior division",1
+7,"RAG1","Right Angular Gyrus",1
+24,"RLOCid1","Right Lateral Occipital Cortex inferior division",1
+34,"RMFG1","Right Middle Frontal Gyrus",1
+38,"ROP1","Right Occipital Pole",1
+46,"LCC1","Left Cuneal Cortex",1
+48,"LAG1","Left Angular Gyrus",1
+53,"LMFG1","Left Middle Frontal Gyrus",1
+55,"LTOFC1","Left Temporal Occipital Fusiform Cortex",1
+61,"LLG1","Left Lingual Gyrus",1
+70,"RPC4","Right Precuneous Cortex",1
+71,"LLOCsd2","Left Lateral Occipital Cortex superior division",1
+74,"RLOCid2","Right Lateral Occipital Cortex inferior division",1
+77,"RIC2","Right Intracalcarine Cortex",1
+83,"LMFG2","Left Middle Frontal Gyrus",1
+85,"LLOCsd3","Left Lateral Occipital Cortex superior division",1
+88,"RITGtp1","Right Inferior Temporal Gyrus temporooccipital part",1
+90,"ROP2","Right Occipital Pole",1
+92,"RLG1","Right Lingual Gyrus",1
+95,"LOP1","Left Occipital Pole",1
+111,"RMFG4","Right Middle Frontal Gyrus",1
+114,"LOP2","Left Occipital Pole",1
+121,"ROFG","Right Occipital Fusiform Gyrus",1
+125,"ROP3","Right Occipital Pole",1
+126,"RLOCid3","Right Lateral Occipital Cortex inferior division",1
+132,"LPG10","Left Paracingulate Gyrus",1
+133,"LLOCid3","Left Lateral Occipital Cortex inferior division",1
+140,"LOP3","Left Occipital Pole",1
+141,"LOFG1","Left Occipital Fusiform Gyrus",1
+147,"RLOCsd2","Right Lateral Occipital Cortex superior division",1
+151,"RLOCsd3","Right Lateral Occipital Cortex superior division",1
+153,"RTOFC1","Right Temporal Occipital Fusiform Cortex",1
+156,"RLOCid4","Right Lateral Occipital Cortex inferior division",1
+157,"LLG2","Left Lingual Gyrus",1
+159,"LLG3","Left Lingual Gyrus",1
+169,"LTOFC2","Left Temporal Occipital Fusiform Cortex",1
+170,"LSFG3","Left Superior Frontal Gyrus",1
+172,"RLG2","Right Lingual Gyrus",1
+2,"LLOCsd1","Left Lateral Occipital Cortex superior division",2
+3,"RPC1","Right Precuneous Cortex",2
+5,"LPG1","Left Paracingulate Gyrus",2
+9,"LMTGpd1","Left Middle Temporal Gyrus posterior division",2
+12,"RAG2","Right Angular Gyrus",2
+14,"LLOCid2","Left Lateral Occipital Cortex inferior division",2
+17,"LPC1","Left Precuneous Cortex",2
+20,"RCGad1","Right Cingulate Gyrus anterior division",2
+23,"RFP2","Right Frontal Pole",2
+27,"RCGpd1","Right Cingulate Gyrus posterior division",2
+28,"RSPL1","Right Superior Parietal Lobule",2
+40,"RCGpd2","Right Cingulate Gyrus posterior division",2
+43,"RMTGpd1","Right Middle Temporal Gyrus posterior division",2
+44,"LPG5","Left Precentral Gyrus",2
+50,"RPC3","Right Precuneous Cortex",2
+56,"RMFG2","Right Middle Frontal Gyrus",2
+63,"LMTGpd2","Left Middle Temporal Gyrus posterior division",2
+79,"RSFG1","Right Superior Frontal Gyrus",2
+81,"RSGpd1","Right Supramarginal Gyrus posterior division",2
+89,"LMTGad1","Left Middle Temporal Gyrus anterior division",2
+91,"LFP3","Left Frontal Pole",2
+93,"RMFG3","Right Middle Frontal Gyrus",2
+96,"RFP4","Right Frontal Pole",2
+101,"LLOCsd4","Left Lateral Occipital Cortex superior division",2
+115,"RLOCsd1","Right Lateral Occipital Cortex superior division",2
+116,"LSFG1","Left Superior Frontal Gyrus",2
+119,"LLOCsd5","Left Lateral Occipital Cortex superior division",2
+122,"RFP7","Right Frontal Pole",2
+123,"RMTGad1","Right Middle Temporal Gyrus anterior division",2
+130,"LPC2","Left Precuneous Cortex",2
+138,"LSPL1","Left Superior Parietal Lobule",2
+144,"RPC5","Right Precuneous Cortex",2
+152,"LPG13","Left Postcentral Gyrus",2
+155,"LPC3","Left Precuneous Cortex",2
+160,"RSGad1","Right Supramarginal Gyrus anterior division",2
+166,"RFP9","Right Frontal Pole",2
+168,"LSPL2","Left Superior Parietal Lobule",2
+171,"RFP10","Right Frontal Pole",2
+174,"LPC4","Left Precuneous Cortex",2
+4,"LIC1","Left Insular Cortex",3
+6,"RPC2","Right Precuneous Cortex",3
+8,"LPG2","Left Postcentral Gyrus",3
+11,"RPG1","Right Paracingulate Gyrus",3
+18,"LIC2","Left Insular Cortex",3
+19,"LPG3","Left Postcentral Gyrus",3
+22,"LPOC1","Left Parietal Operculum Cortex",3
+26,"RPG3","Right Postcentral Gyrus",3
+30,"LSGpd1","Left Supramarginal Gyrus posterior division",3
+32,"RCOC1","Right Central Opercular Cortex",3
+47,"RCGad3","Right Cingulate Gyrus anterior division",3
+51,"RIC1","Right Insular Cortex",3
+52,"RPG4","Right Postcentral Gyrus",3
+57,"RPG5","Right Postcentral Gyrus",3
+58,"RPT1","Right Planum Temporale",3
+59,"LP1","Left Putamen",3
+60,"RMTGtp2","Right Middle Temporal Gyrus temporooccipital part",3
+67,"LCGpd1","Left Cingulate Gyrus posterior division",3
+69,"RCGad4","Right Cingulate Gyrus anterior division",3
+72,"RPP1","Right Planum Polare",3
+76,"LPG7","Left Postcentral Gyrus",3
+78,"LPG8","Left Precentral Gyrus",3
+84,"LPG9","Left Postcentral Gyrus",3
+86,"RPG6","Right Precentral Gyrus",3
+94,"RSTGpd1","Right Superior Temporal Gyrus posterior division",3
+98,"RPG7","Right Precentral Gyrus",3
+103,"LSGad1","Left Supramarginal Gyrus anterior division",3
+104,"LMTGtp2","Left Middle Temporal Gyrus temporooccipital part",3
+105,"RCOC2","Right Central Opercular Cortex",3
+106,"LIC3","Left Insular Cortex",3
+108,"RPG9","Right Precentral Gyrus",3
+112,"RPOC1","Right Parietal Operculum Cortex",3
+113,"LPP1","Left Planum Polare",3
+117,"RPG10","Right Precentral Gyrus",3
+120,"RPP2","Right Planum Polare",3
+129,"LHG/HaH1","Left Heschl's Gyrus",3
+135,"RSTGpd2","Right Superior Temporal Gyrus posterior division",3
+136,"LPG11","Left Postcentral Gyrus",3
+139,"RPG11","Right Postcentral Gyrus",3
+143,"RSFG2","Right Superior Frontal Gyrus",3
+146,"LPG12","Left Precentral Gyrus",3
+158,"RP2","Right Putamen",3
+162,"LJLC/SMC1","Left Juxtapositional Lobule Cortex",3
+164,"LCOC1","Left Central Opercular Cortex",3
+165,"RHG/HaH1","Right Heschl's Gyrus",3
+173,"LTP2","Left Temporal Pole",3
+177,"LPT1","Left Planum Temporale",3
+10,"RFP1","Right Frontal Pole",4
+15,"RPG2","Right Precentral Gyrus",4
+21,"LFP1","Left Frontal Pole",4
+31,"LPG4","Left Precentral Gyrus",4
+35,"RMTGtp1","Right Middle Temporal Gyrus temporooccipital part",4
+37,"LFP2","Left Frontal Pole",4
+45,"RFOC1","Right Frontal Orbital Cortex",4
+49,"LFOC1","Left Frontal Orbital Cortex",4
+64,"LPG6","Left Precentral Gyrus",4
+65,"LFOC2","Left Frontal Orbital Cortex",4
+66,"RFP3","Right Frontal Pole",4
+87,"LMTGtp1","Left Middle Temporal Gyrus temporooccipital part",4
+100,"RFP5","Right Frontal Pole",4
+102,"RPG8","Right Precentral Gyrus",4
+109,"RFP6","Right Frontal Pole",4
+110,"LMFG3","Left Middle Frontal Gyrus",4
+124,"LIFGpt1","Left Inferior Frontal Gyrus pars triangularis",4
+127,"RIFGpt1","Right Inferior Frontal Gyrus pars triangularis",4
+134,"LMFG4","Left Middle Frontal Gyrus",4
+145,"RIFGpo1","Right Inferior Frontal Gyrus pars opercularis",4
+148,"LFP4","Left Frontal Pole",4
+149,"RFP8","Right Frontal Pole",4
+150,"LFP5","Left Frontal Pole",4
+154,"LSFG2","Left Superior Frontal Gyrus",4
+163,"LFP6","Left Frontal Pole",4
+167,"RSFG3","Right Superior Frontal Gyrus",4
+13,"RP1","Right Putamen",5
+16,"RT1","Right Thalamus",5
+25,"LPGad1","Left Parahippocampal Gyrus anterior division",5
+29,"RTP1","Right Temporal Pole",5
+33,"LT1","Left Thalamus",5
+36,"RCGad2","Right Cingulate Gyrus anterior division",5
+39,"LT2","Left Thalamus",5
+41,"LC1","Left Caudate",5
+42,"RH1","Right Hippocampus",5
+54,"RTFCpd1","Right Temporal Fusiform Cortex posterior division",5
+62,"RFOC2","Right Frontal Orbital Cortex",5
+68,"LTP1","Left Temporal Pole",5
+73,"LC2","Left Caudate",5
+75,"RTFCpd2","Right Temporal Fusiform Cortex posterior division",5
+80,"LA1","Left Amygdala",5
+82,"RC1","Right Caudate",5
+97,"RTP2","Right Temporal Pole",5
+99,"LFOC3","Left Frontal Orbital Cortex",5
+107,"LPGpd1","Left Parahippocampal Gyrus posterior division",5
+118,"RC2","Right Caudate",5
+128,"LH1","Left Hippocampus",5
+131,"RT2","Right Thalamus",5
+137,"RH2","Right Hippocampus",5
+142,"LSC1","Left Subcallosal Cortex",5
+161,"RTP3","Right Temporal Pole",5
+175,"RTFCad1","Right Temporal Fusiform Cortex anterior division",5
+176,"B1","Brain-Stem",5
