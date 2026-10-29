@@ -1,12 +1,5 @@
 library(igraph)
 
-# construct the undirected, unweighted brain network
-brain_network <- graph_from_adjacency_matrix(
-  matrix,
-  mode = "undirected",
-  diag = FALSE
-)
-
 # Basic network characteristics
 summary(brain_network)
 gorder(brain_network)

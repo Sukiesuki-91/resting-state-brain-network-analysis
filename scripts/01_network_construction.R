@@ -1,3 +1,5 @@
+library(igraph)
+
 # load the brain connectivity matrix and labels 
 matrix <- read.delim('data/raw/AveragedMatrix.txt', header = FALSE, sep = ' ')
 short_labels <- read.delim('data/raw/region_names_abbrev_file.txt', header = FALSE)
@@ -27,10 +29,13 @@ rownames(matrix) <- short_labels$V1 # add node labels
 
 # you should be able to now convert the "matrix" object into a network object
 
-# notice you have options here: 
-# you can choose a different threshold for the edges (2.)
-# you can decide to analyze a weighted or unweighted network (by skipping line 20, 3.)
-
 # the short labels can be cross-referenced with the long labels for further interpretation.
 merged <- data.frame(short_label = short_labels$V1, long_label = long_labels$V1)
 head(merged)
+
+# construct the undirected, unweighted brain network
+brain_network <- graph_from_adjacency_matrix(
+  matrix,
+  mode = "undirected",
+  diag = FALSE
+)
