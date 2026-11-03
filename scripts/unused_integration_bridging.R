@@ -58,7 +58,7 @@ for (i in seq_along(spread_nodes)) {
     retention = 0.5,
     decay = 0,
     suppress = 0,
-    time = 3,
+    time = 5,
     include_t0 = TRUE
   )
   
@@ -73,7 +73,7 @@ result <- do.call(
 
 # Summarise spreading results
 spreading_summary <- result |>
-  dplyr::filter(activation > 0) |>
+  dplyr::filter(activation > 0) |> 
   dplyr::group_by(seed, time) |>
   dplyr::summarise(
     activated_nodes = dplyr::n(),
