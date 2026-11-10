@@ -1,3 +1,8 @@
+# Construct an undirected, unweighted functional brain network
+# Inputs: connectivity matrix and region labels in data/raw/.
+# Processing: take absolute correlations, apply a threshold of 0.174,
+# and binarize ratained connections
+
 library(igraph)
 
 # load the brain connectivity matrix and labels 

@@ -1,4 +1,8 @@
-# Function to compute Small World Index (SWI)
+# Assess small-world organization against 100 random networks.
+# Returned values: Cobs, Lobs, crand, lrand, SWI.
+# Random seed: 123.
+
+library(igraph)
 
 compute_swi <- function(graph){
   nodes <- length(V(graph))
@@ -30,7 +34,7 @@ compute_swi <- function(graph){
   # Compute Small World Index
   SWI = (Cobs / Lobs) / (crand / lrand)
   
-  # Return values
+  # Return values with the sequence of Cobs, Lobs, crand, lrand, SWI
   return(c(Cobs, Lobs, crand, lrand, SWI))
 }
 

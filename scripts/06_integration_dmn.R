@@ -1,8 +1,10 @@
-# DMN spread-activation simulation (integration)
+# Explore network integration usig spreading activation from the DMN. 
 
 library(igraph)
 library(here)
 library(spreadr)
+library(ggplot2)
+library(dplyr)
 
 dmn_nodes <- V(brain_network)$name[dmn_core_index]
 
@@ -27,9 +29,9 @@ dmn_spread <- spreadr(
 activation_threshold <- (100 / length(dmn_nodes)) * 0.01
 
 dmn_threshold_hits <- dmn_spread |>
-  dplyr::filter(activation >= activation_threshold) |>
-  dplyr::group_by(node) |>
-  dplyr::summarise(
+  filter(activation >= activation_threshold) |>
+  group_by(node) |>
+  summarise(
     first_time = min(as.numeric(time)),
     .groups = "drop"
   )
@@ -55,7 +57,6 @@ write.csv(
 )
 
 # Trend in cumulative spreading activation from the DMN
-library(ggplot2)
 
 p_spread <- ggplot(
   dmn_cumulative,

@@ -1,5 +1,4 @@
-# Visualisation
-# install.packages("ggplot2")
+# Visualise Louvain communities and the predefined DMN core anatomically.
 # install.packages("patchwork")
 
 library(igraph)

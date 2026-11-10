@@ -1,3 +1,5 @@
+# Calculate descriptive statistics for the functional brain network.
+
 library(igraph)
 
 # Basic network characteristics
@@ -8,7 +10,7 @@ gsize(brain_network)
 # Average degree
 mean(degree(brain_network))
 
-# ASPL
+# Average shortest path length (ASPL)
 mean_distance(brain_network, directed = FALSE, weights = NA)
 
 # Global clustering coefficient

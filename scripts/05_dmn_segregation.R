@@ -1,4 +1,7 @@
-# Literature-defined DMN segregation analysis
+# Assess segregation of a literature-defined set of 15 core DMN regions.
+# Compare DMN-versus-rest modularity and internal density and clustering
+# with those obtained from 1,000 randomly selected 15-region sets.
+# Random seed: 123.
 
 library(igraph)
 library(here)

@@ -1,6 +1,9 @@
-# Community detection
+# Identify functional communities using the Louvain algorithms.
+# Random seed: 123
+
 library(igraph)
 library(here)
+library(dplyr)
 
 set.seed(123)
 
@@ -19,13 +22,13 @@ community_table <- data.frame(
   region = long_labels[[1]],
   community = membership(brain_louvain)
 ) |>
-  dplyr::arrange(community, roi_index)
+  arrange(community, roi_index)
 
 View(community_table)
 
 # 4. Community size summary
 community_summary <- community_table |>
-  dplyr::count(community, name = "n_nodes")
+  count(community, name = "n_nodes")
 
 community_summary
 
