@@ -1,9 +1,6 @@
----
+------------------------------------------------------------------------
 
-editor_options: 
-  markdown: 
-    wrap: 72
----
+editor_options: markdown: wrap: 72 ---
 
 # Resting-State Brain Network Analysis
 
@@ -124,29 +121,9 @@ Use **R 4.1 or later**, as the scripts use the native pipe operator (`|>`).
 
 4.  Run scripts `01` through `07` in numerical order **in the same R session**. Later scripts reuse objects created by earlier scripts, including `brain_network`, `long_labels`, `brain_louvain`, and `dmn_core_index`. Run interactively in RStudio to inspect console results, plots, and the `View(community_table)` call in script `04`.
 
-    Alternatively, run these commands in the RStudio console. `echo = TRUE` displays expressions and their results, including statistics that are not written to CSV:
-
-    ``` r
-    source("scripts/01_network_construction.R", echo = TRUE)
-    source("scripts/02_network_analysis.R", echo = TRUE)
-    source("scripts/03_small_world_analysis.R", echo = TRUE)
-    source("scripts/04_community_detection.R", echo = TRUE)
-    source("scripts/05_dmn_segregation.R", echo = TRUE)
-    source("scripts/06_integration_dmn.R", echo = TRUE)
-    source("scripts/07_visualisation.R", echo = TRUE)
-    ```
-
-    Script `04` opens a data viewer, so this workflow is intended for an interactive RStudio session rather than an unattended command-line run.
-
 Scripts `03`, `04`, and `05` set the random seed to 123. Package versions are not pinned, so exact results may vary across software versions. Running the workflow again overwrites its exported files.
 
 To inspect the software environment used for a run, execute `sessionInfo()` after completing the workflow. To run the optional exploratory analysis, install `influenceR` separately with `install.packages("influenceR")`; it exports `output/tables/spreading_activation_summary.csv`, which is not a main-workflow output.
-
-## Code Comments and Interpretation
-
-The scripts contain section comments identifying preprocessing, network metrics, community detection, random benchmarks, simulation settings, and figure construction. Key choices include taking absolute correlations, applying a fixed threshold, comparing with 100 random graphs and 1,000 random ROI sets, and defining cumulative activation reach.
-
-For final submission, add a short header to each script stating its purpose, required prior scripts or objects, and outputs. Expand `ASPL` to “average shortest path length” in script `02`, and correct the “quartiles” comments in script `01`: `seq(0, 1, 0.1)` requests quantiles at 10% intervals, not quartiles. In script `03`, document the returned vector's order as `Cobs, Lobs, crand, lrand, SWI`. These are remaining code-comment improvements; they have not been applied to the scripts.
 
 ## Generated Outputs
 
