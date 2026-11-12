@@ -82,8 +82,6 @@ Number prefixes specify execution order; the remaining filename describes the an
 | `07_visualisation.R` | `brain_network` from `01`; `brain_louvain` from `04`; coordinate CSV | `igraph`, `here`, `ggplot2`, `dplyr`, `patchwork` |
 | `unused_integration_bridging.R` (optional) | `brain_network` and `long_labels` from `01` | `igraph`, `here`, `influenceR`, `spreadr`, `dplyr` |
 
-The current scripts do not yet declare every dependency at their beginning: `03` relies on an earlier `igraph` attachment; `04` and `06` use `dplyr::` without a header declaration; and `06` loads `ggplot2` midway through the file. The optional exploratory script also uses `dplyr::` without a header declaration. The setup block above makes the main workflow's dependencies explicit, but script headers still need these changes to meet the code-level declaration requirement.
-
 The small-world index is calculated as `SWI = (C_observed / C_random) / (L_observed / L_random)`, using global clustering and average shortest path length. The random graphs are sampled with `sample_gnm()` and match the observed graph's node and edge counts, rather than its degree sequence.
 
 ### DMN Segregation and Integration
