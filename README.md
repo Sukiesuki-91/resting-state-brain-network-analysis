@@ -1,7 +1,5 @@
 ------------------------------------------------------------------------
 
-editor_options: markdown: wrap: 72 ---
-
 # Resting-State Brain Network Analysis
 
 ## Required R Packages
@@ -25,7 +23,7 @@ This repository contains the data and R code used to examine the topology, commu
 
 The analysis covers basic network characteristics, small-world organization, Louvain community detection, comparisons between a predefined DMN core and random node groups, and spreading activation from the DMN.
 
-This project was conducted as part of PL4246 Network Analysis at the National University of Singapore.
+This project was conducted as part of final project for PL4246 Networks in Psychology at the National University of Singapore.
 
 ## Data and Network Construction
 
@@ -50,10 +48,6 @@ The construction script takes the absolute value of correlations, retains values
 The four raw inputs and the seven numbered scripts required for the main workflow are included, together with exported tables and figures. The final written report is not currently included in this repository.
 
 `reference/dataset2.R` preserves the original preprocessing example, and `reference/dataset2.pdf` is the accompanying dataset reference material. These are supplementary resources, not additional workflow steps. The example script uses paths from its original context; use `scripts/01_network_construction.R` for this project's input paths.
-
-`output/tables/louvain_community_membership.numbers` is an additional spreadsheet copy; the CSV file is the portable analysis output and does not require Apple Numbers. Local `.RData`, `.Rhistory`, `.Rproj.user/`, and `.DS_Store` files are session or operating-system artifacts, not analysis inputs.
-
-Network objects are held in the R session; the current scripts do not save processed graph objects to disk.
 
 ## Analysis Workflow
 
